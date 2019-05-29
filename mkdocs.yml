@@ -1,12 +1,26 @@
-site_name: First Contact Crypto Wiki
+# Project Information
+site_name: First Contact Crypto wiki
+site_description: 'All Documentation for First Contact Crypto'
+site_author: 'Jason Hartgrave'
+site_url: 'https://firstcontactcrypto.com/wiki/' 
 
+# Copyright
+copyright: 'Copyright &copy; 2019 First Contact Crypto, Inc. All Rights Reserved'
 theme:
   name: 'material'
+  language: 'en'
+  palette:
+    primary: 'grey'
+    accent: 'light green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+# Google Analytics
+google_analytics:
+  - 'UA-133040802-1'
+  - 'auto'
 
 nav:
   - Home: index.md
 #  - About: about.md 
 #  - Team: team.md
-
-extra_css:
-  - 'stylesheets/extra.css'
