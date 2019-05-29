@@ -17,10 +17,10 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  feature:
-    tabs: true
-favicon: 'assets/images/favicon.ico'
-logo: 'images/logo.png'
+  favicon: 'assets/images/favicon.ico'
+  logo: 'assets/images/logo.png'
+  
+
 
 # Google Analytics
 google_analytics:
@@ -38,7 +38,7 @@ markdown_extensions:
   
 
 # Customization
-
+extra:
 social:
     - type: 'facebook'
       link: 'https://www.facebook.com/FirstContactCrypto/'
