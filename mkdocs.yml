@@ -1,0 +1,12 @@
+site_name: First Contact Crypto Wiki
+
+theme:
+  name: 'material'
+
+nav:
+  - Home: index.md
+#  - About: about.md 
+#  - Team: team.md
+
+extra_css:
+  - 'stylesheets/extra.css'
