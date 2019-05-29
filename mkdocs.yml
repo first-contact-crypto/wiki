@@ -6,6 +6,8 @@ site_url: 'https://firstcontactcrypto.com/wiki/'
 
 # Copyright
 copyright: 'Copyright &copy; 2019 First Contact Crypto, Inc. All Rights Reserved'
+
+#Configuration
 theme:
   name: 'material'
   language: 'en'
@@ -15,11 +17,50 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  feature:
+    tabs: true
+favicon: 'assets/images/favicon.ico'
+logo: 'images/logo.png'
+
 # Google Analytics
 google_analytics:
   - 'UA-133040802-1'
   - 'auto'
 
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  
+
+# Customization
+
+social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/FirstContactCrypto/'
+    - type: 'angellist'
+      link: 'https://angel.co/company/firstcontactcrypto'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/firstcontactcrypto'
+      type: 'github'
+      link: 'https://github.com/first-contact-crypto'
+    - type: 'twitter'
+      link: 'https://twitter.com/Fcryptocontact'
+    - type: 'pinterest'
+      link: 'https://www.pinterest.com/firstcontactcrypto/'
+      type: 'reddit'
+      link: 'https://www.reddit.com/r/FirstContactCrypto/'
+    - type: 'dischord'
+      link: 'https://discord.gg/Dk6Sdpj'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/firstcontactcrypto'
+
+
+# Navigation 
 nav:
   - Home: index.md
 #  - About: about.md 
